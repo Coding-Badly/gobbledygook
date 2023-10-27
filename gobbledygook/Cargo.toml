@@ -1,0 +1,23 @@
+[package]
+name = "gobbledygook"
+version = "0.1.0"
+authors = ["Brian Cook (a.k.a Coding-Badly)"]
+license = "Apache-2.0 OR MIT"
+readme = "../README.md"
+repository = "https://github.com/Coding-Badly/gobbledygook"
+documentation = "https://docs.rs/gobbledygook"
+# homepage = "https://gobbledygook.github.io/book"
+description = """
+English-like random word generator for testing.
+"""
+keywords = ["text", "utility", "testing", "string", "test"]
+categories = ["algorithms", "development-tools::debugging", "development-tools::testing"]
+edition = "2021"
+# rust-version = "1.56"
+# include = ["src/", "LICENSE-*", "README.md", "CHANGELOG.md", "COPYRIGHT"]
+
+[dependencies]
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = []
